@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RealEstateManagement.Class
 {
-    class Broker:Person
+    public class Broker:Person
     {
         public string BrokerObjid { get; set; }
         public string PRCNo { get; set; }

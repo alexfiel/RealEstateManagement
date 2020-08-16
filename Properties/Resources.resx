@@ -136,11 +136,17 @@
   <data name="registration_40px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\registration_40px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="identification_documents_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\identification_documents_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="f21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\f21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="password_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\password_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="registered_trademark_240px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\registered_trademark_240px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="close_window_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close_window_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,8 +160,14 @@
   <data name="check_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\check_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="save_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\save_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="cancel_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cancel_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="name_30px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\name_30px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,13 +175,16 @@
   <data name="user_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\user_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="edit_file_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit_file_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="minimize_window_32px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\minimize_window_32px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="close_window_50px1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close_window_50px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="identification_documents_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\identification_documents_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="delete_bin_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete_bin_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

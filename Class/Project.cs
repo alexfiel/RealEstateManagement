@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RealEstateManagement.Class
 {
-    class Project
+    public class Project
     {
         public string ProjObjid { get; set; }
         public string ProjectName { get; set; }

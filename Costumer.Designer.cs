@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnEdit = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnNew = new System.Windows.Forms.Button();
             this.label33 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.btnAddId = new System.Windows.Forms.Button();
             this.pbCostumerID = new System.Windows.Forms.PictureBox();
             this.btnAddPicture = new System.Windows.Forms.Button();
@@ -109,12 +109,12 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnDelete);
+            this.groupBox1.Controls.Add(this.btnEdit);
+            this.groupBox1.Controls.Add(this.btnSave);
+            this.groupBox1.Controls.Add(this.btnNew);
             this.groupBox1.Controls.Add(this.label33);
             this.groupBox1.Controls.Add(this.label32);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.btnAddId);
             this.groupBox1.Controls.Add(this.pbCostumerID);
             this.groupBox1.Controls.Add(this.btnAddPicture);
@@ -187,10 +187,59 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // btnDelete
+            // 
+            this.btnDelete.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnDelete.Image = global::RealEstateManagement.Properties.Resources.delete_bin_64px;
+            this.btnDelete.Location = new System.Drawing.Point(1062, 20);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(112, 73);
+            this.btnDelete.TabIndex = 146;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnDelete.UseVisualStyleBackColor = true;
+            // 
+            // btnEdit
+            // 
+            this.btnEdit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnEdit.Image = global::RealEstateManagement.Properties.Resources.edit_file_64px;
+            this.btnEdit.Location = new System.Drawing.Point(950, 20);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(112, 73);
+            this.btnEdit.TabIndex = 145;
+            this.btnEdit.Text = "Edit";
+            this.btnEdit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnEdit.UseVisualStyleBackColor = true;
+            // 
+            // btnSave
+            // 
+            this.btnSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSave.Image = global::RealEstateManagement.Properties.Resources.save_64px;
+            this.btnSave.Location = new System.Drawing.Point(836, 20);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(112, 73);
+            this.btnSave.TabIndex = 144;
+            this.btnSave.Text = "Save";
+            this.btnSave.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSave.UseVisualStyleBackColor = true;
+            // 
+            // btnNew
+            // 
+            this.btnNew.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnNew.Image = global::RealEstateManagement.Properties.Resources.add_64px;
+            this.btnNew.Location = new System.Drawing.Point(724, 20);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(112, 73);
+            this.btnNew.TabIndex = 143;
+            this.btnNew.Text = "New";
+            this.btnNew.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnNew.UseVisualStyleBackColor = true;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
+            // 
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(394, 21);
+            this.label33.Location = new System.Drawing.Point(386, 20);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(100, 13);
             this.label33.TabIndex = 75;
@@ -205,54 +254,10 @@
             this.label32.TabIndex = 74;
             this.label32.Text = "Contact Information";
             // 
-            // button4
-            // 
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button4.Location = new System.Drawing.Point(1063, 391);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(95, 63);
-            this.button4.TabIndex = 73;
-            this.button4.Text = "Delete";
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button3.Location = new System.Drawing.Point(962, 389);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(95, 63);
-            this.button3.TabIndex = 72;
-            this.button3.Text = "Edit";
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button2.Location = new System.Drawing.Point(861, 389);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(95, 63);
-            this.button2.TabIndex = 71;
-            this.button2.Text = "Save";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.Location = new System.Drawing.Point(760, 389);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 63);
-            this.button1.TabIndex = 70;
-            this.button1.Text = "New";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // btnAddId
             // 
             this.btnAddId.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnAddId.Location = new System.Drawing.Point(1044, 224);
+            this.btnAddId.Location = new System.Drawing.Point(1044, 328);
             this.btnAddId.Name = "btnAddId";
             this.btnAddId.Size = new System.Drawing.Size(107, 41);
             this.btnAddId.TabIndex = 69;
@@ -264,7 +269,7 @@
             // 
             this.pbCostumerID.BackgroundImage = global::RealEstateManagement.Properties.Resources.identification_documents_96px;
             this.pbCostumerID.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbCostumerID.Location = new System.Drawing.Point(950, 26);
+            this.pbCostumerID.Location = new System.Drawing.Point(950, 130);
             this.pbCostumerID.Name = "pbCostumerID";
             this.pbCostumerID.Size = new System.Drawing.Size(201, 195);
             this.pbCostumerID.TabIndex = 68;
@@ -272,7 +277,7 @@
             // 
             // btnAddPicture
             // 
-            this.btnAddPicture.Location = new System.Drawing.Point(824, 227);
+            this.btnAddPicture.Location = new System.Drawing.Point(824, 331);
             this.btnAddPicture.Name = "btnAddPicture";
             this.btnAddPicture.Size = new System.Drawing.Size(107, 40);
             this.btnAddPicture.TabIndex = 67;
@@ -283,7 +288,7 @@
             // 
             this.pbCostumerPicture.BackgroundImage = global::RealEstateManagement.Properties.Resources.user_48px;
             this.pbCostumerPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbCostumerPicture.Location = new System.Drawing.Point(730, 25);
+            this.pbCostumerPicture.Location = new System.Drawing.Point(730, 129);
             this.pbCostumerPicture.Name = "pbCostumerPicture";
             this.pbCostumerPicture.Size = new System.Drawing.Size(201, 196);
             this.pbCostumerPicture.TabIndex = 66;
@@ -292,7 +297,7 @@
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(429, 480);
+            this.label31.Location = new System.Drawing.Point(421, 479);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(44, 13);
             this.label31.TabIndex = 65;
@@ -300,7 +305,7 @@
             // 
             // txtCompanyContact
             // 
-            this.txtCompanyContact.Location = new System.Drawing.Point(479, 473);
+            this.txtCompanyContact.Location = new System.Drawing.Point(471, 472);
             this.txtCompanyContact.Name = "txtCompanyContact";
             this.txtCompanyContact.Size = new System.Drawing.Size(225, 20);
             this.txtCompanyContact.TabIndex = 29;
@@ -308,7 +313,7 @@
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(427, 426);
+            this.label30.Location = new System.Drawing.Point(419, 425);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(45, 13);
             this.label30.TabIndex = 63;
@@ -316,7 +321,7 @@
             // 
             // txtCompanyAddress
             // 
-            this.txtCompanyAddress.Location = new System.Drawing.Point(479, 419);
+            this.txtCompanyAddress.Location = new System.Drawing.Point(471, 418);
             this.txtCompanyAddress.Multiline = true;
             this.txtCompanyAddress.Name = "txtCompanyAddress";
             this.txtCompanyAddress.Size = new System.Drawing.Size(225, 43);
@@ -325,7 +330,7 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(391, 396);
+            this.label29.Location = new System.Drawing.Point(383, 395);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(85, 13);
             this.label29.TabIndex = 61;
@@ -333,7 +338,7 @@
             // 
             // txtCompanyName
             // 
-            this.txtCompanyName.Location = new System.Drawing.Point(479, 389);
+            this.txtCompanyName.Location = new System.Drawing.Point(471, 388);
             this.txtCompanyName.Name = "txtCompanyName";
             this.txtCompanyName.Size = new System.Drawing.Size(225, 20);
             this.txtCompanyName.TabIndex = 27;
@@ -348,7 +353,7 @@
             "31,000.00 - 40,000.00",
             "41,000.00 - 50,000.00",
             "51,000.00 Up"});
-            this.cboAverageIncome.Location = new System.Drawing.Point(479, 357);
+            this.cboAverageIncome.Location = new System.Drawing.Point(471, 356);
             this.cboAverageIncome.Name = "cboAverageIncome";
             this.cboAverageIncome.Size = new System.Drawing.Size(225, 21);
             this.cboAverageIncome.TabIndex = 26;
@@ -356,7 +361,7 @@
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(348, 365);
+            this.label28.Location = new System.Drawing.Point(340, 364);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(128, 13);
             this.label28.TabIndex = 58;
@@ -370,7 +375,7 @@
             "Government",
             "Self-Employed",
             "OFW"});
-            this.cbosourceofIncome.Location = new System.Drawing.Point(479, 325);
+            this.cbosourceofIncome.Location = new System.Drawing.Point(471, 324);
             this.cbosourceofIncome.Name = "cbosourceofIncome";
             this.cbosourceofIncome.Size = new System.Drawing.Size(225, 21);
             this.cbosourceofIncome.TabIndex = 25;
@@ -378,7 +383,7 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(403, 298);
+            this.label27.Location = new System.Drawing.Point(395, 297);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(91, 13);
             this.label27.TabIndex = 56;
@@ -387,7 +392,7 @@
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(399, 332);
+            this.label26.Location = new System.Drawing.Point(391, 331);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(73, 13);
             this.label26.TabIndex = 55;
@@ -641,7 +646,7 @@
             "Yemen",
             "Zambia",
             "Zimbabwe"});
-            this.cboCountry.Location = new System.Drawing.Point(479, 217);
+            this.cboCountry.Location = new System.Drawing.Point(471, 216);
             this.cboCountry.Name = "cboCountry";
             this.cboCountry.Size = new System.Drawing.Size(225, 21);
             this.cboCountry.TabIndex = 23;
@@ -653,7 +658,7 @@
             "Own",
             "Rent",
             "Living w/ Relatives"});
-            this.cboTypeofOwnership.Location = new System.Drawing.Point(479, 70);
+            this.cboTypeofOwnership.Location = new System.Drawing.Point(471, 69);
             this.cboTypeofOwnership.Name = "cboTypeofOwnership";
             this.cboTypeofOwnership.Size = new System.Drawing.Size(225, 21);
             this.cboTypeofOwnership.TabIndex = 18;
@@ -1232,7 +1237,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(377, 80);
+            this.label12.Location = new System.Drawing.Point(369, 79);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(96, 13);
             this.label12.TabIndex = 23;
@@ -1241,7 +1246,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(394, 51);
+            this.label11.Location = new System.Drawing.Point(386, 50);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(79, 13);
             this.label11.TabIndex = 21;
@@ -1249,7 +1254,7 @@
             // 
             // txtLengthStay
             // 
-            this.txtLengthStay.Location = new System.Drawing.Point(479, 44);
+            this.txtLengthStay.Location = new System.Drawing.Point(471, 43);
             this.txtLengthStay.Name = "txtLengthStay";
             this.txtLengthStay.Size = new System.Drawing.Size(56, 20);
             this.txtLengthStay.TabIndex = 17;
@@ -1257,7 +1262,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(420, 259);
+            this.label10.Location = new System.Drawing.Point(412, 258);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(53, 13);
             this.label10.TabIndex = 19;
@@ -1265,7 +1270,7 @@
             // 
             // txtZip
             // 
-            this.txtZip.Location = new System.Drawing.Point(479, 252);
+            this.txtZip.Location = new System.Drawing.Point(471, 251);
             this.txtZip.Name = "txtZip";
             this.txtZip.Size = new System.Drawing.Size(225, 20);
             this.txtZip.TabIndex = 24;
@@ -1273,7 +1278,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(426, 224);
+            this.label9.Location = new System.Drawing.Point(418, 223);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(46, 13);
             this.label9.TabIndex = 17;
@@ -1282,7 +1287,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(421, 197);
+            this.label8.Location = new System.Drawing.Point(413, 196);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(52, 13);
             this.label8.TabIndex = 15;
@@ -1290,7 +1295,7 @@
             // 
             // txtProvince
             // 
-            this.txtProvince.Location = new System.Drawing.Point(479, 190);
+            this.txtProvince.Location = new System.Drawing.Point(471, 189);
             this.txtProvince.Name = "txtProvince";
             this.txtProvince.Size = new System.Drawing.Size(225, 20);
             this.txtProvince.TabIndex = 22;
@@ -1298,7 +1303,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(383, 168);
+            this.label7.Location = new System.Drawing.Point(375, 167);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(90, 13);
             this.label7.TabIndex = 13;
@@ -1306,7 +1311,7 @@
             // 
             // txtCity
             // 
-            this.txtCity.Location = new System.Drawing.Point(479, 161);
+            this.txtCity.Location = new System.Drawing.Point(471, 160);
             this.txtCity.Name = "txtCity";
             this.txtCity.Size = new System.Drawing.Size(225, 20);
             this.txtCity.TabIndex = 21;
@@ -1314,7 +1319,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(418, 137);
+            this.label6.Location = new System.Drawing.Point(410, 136);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(55, 13);
             this.label6.TabIndex = 11;
@@ -1322,7 +1327,7 @@
             // 
             // txtBarangay
             // 
-            this.txtBarangay.Location = new System.Drawing.Point(479, 130);
+            this.txtBarangay.Location = new System.Drawing.Point(471, 129);
             this.txtBarangay.Name = "txtBarangay";
             this.txtBarangay.Size = new System.Drawing.Size(225, 20);
             this.txtBarangay.TabIndex = 20;
@@ -1330,7 +1335,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(425, 104);
+            this.label5.Location = new System.Drawing.Point(417, 103);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(48, 13);
             this.label5.TabIndex = 9;
@@ -1338,7 +1343,7 @@
             // 
             // txtAddress
             // 
-            this.txtAddress.Location = new System.Drawing.Point(479, 97);
+            this.txtAddress.Location = new System.Drawing.Point(471, 96);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(225, 20);
             this.txtAddress.TabIndex = 19;
@@ -1502,12 +1507,12 @@
         private System.Windows.Forms.Button btnAddId;
         private System.Windows.Forms.PictureBox pbCostumerID;
         private System.Windows.Forms.Button btnAddPicture;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnEdit;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnNew;
     }
 }

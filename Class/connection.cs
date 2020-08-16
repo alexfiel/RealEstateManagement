@@ -8,7 +8,7 @@ using RealEstateManagement.Class;
 
 namespace RealEstateManagement.Class
 {
-    class connection
+    public class connection
     {
         public MySqlConnection connectDB;
         public connection() 
@@ -19,6 +19,8 @@ namespace RealEstateManagement.Class
             string user = "admin_alex";
             string pass = "pass123";
             string constring = "datasource=" + host + ";database=" + db + ";port=" + port + ";username=" + user + ";password=" + pass + "; SslMode=none";
+
+            
             connectDB = new MySqlConnection(constring);
         }
     }

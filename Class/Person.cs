@@ -8,6 +8,7 @@ namespace RealEstateManagement.Class
 {
     public class Person
     {
+        public string  PersonID { get; set; }
         public string Fname { get; set; }
         public string Lname { get; set; }
         public string Middle { get; set; }
@@ -17,6 +18,7 @@ namespace RealEstateManagement.Class
         public string Contact { get; set; }
         public string CivilStatus { get; set; }
         public string EducationLevel { get; set; }
+        public string  Citizen { get; set; }
 
 
 

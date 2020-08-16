@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RealEstateManagement.Class
 {
-    class ProjectBlock:Project
+    public class ProjectBlock:Project
     {
         public int Blockno { get; set; }
         public int Lotno { get; set; }

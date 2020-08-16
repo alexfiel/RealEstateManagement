@@ -154,6 +154,7 @@
             this.btnProjects.Text = "  Projects";
             this.btnProjects.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnProjects.UseVisualStyleBackColor = true;
+            this.btnProjects.Click += new System.EventHandler(this.btnProjects_Click);
             // 
             // btnCostumer
             // 
@@ -189,6 +190,7 @@
             this.btnRegRealEstate.Text = "  Register Real Estate";
             this.btnRegRealEstate.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnRegRealEstate.UseVisualStyleBackColor = true;
+            this.btnRegRealEstate.Click += new System.EventHandler(this.btnRegRealEstate_Click);
             // 
             // pictureBox1
             // 
@@ -216,6 +218,7 @@
             this.button4.Text = "  Register Sales Person";
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // pnlStage
             // 

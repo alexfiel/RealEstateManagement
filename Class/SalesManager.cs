@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RealEstateManagement.Class
 {
-    class SalesManager:SalesPerson
+    public class SalesManager:SalesPerson
     {
         public double CommisionRate { get; set; }
 
